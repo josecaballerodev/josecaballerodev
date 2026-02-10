@@ -1,20 +1,6 @@
-<table>
-  <tr>
-    <td width="50%">
-      <h1>José Luis Caballero</h1>
-      <p><b>Full-Stack Developer & Web Designer</b></p>
-      <p>Constant innovation for fast, beautiful, and functional digital experiences.</p>
-      <p>
-        <a href="https://www.joseluisdev.es/"><img src="https://img.shields.io/badge/Web-Portfolio-0d1117?style=flat-square&logo=googlechrome" alt="Web"></a>
-        <a href="https://es.linkedin.com/in/joseluiscaballerow"><img src="https://img.shields.io/badge/LinkedIn-José_Luis-0A66C2?style=flat-square&logo=linkedin" alt="LinkedIn"></a>
-        <a href="https://t.me/josecaballerodev"><img src="https://img.shields.io/badge/Telegram-Chat-26A5E4?style=flat-square&logo=telegram" alt="Telegram"></a>
-      </p>
-    </td>
-    <td width="50%" align="center">
-      <img src="assets/fyp.png" width="220" alt="José Luis Caballero">
-    </td>
-  </tr>
-</table>
+Hi there 👋 I'm **José Luis Caballero**, Full-Stack Developer and Web Designer. I focus on building fast, accessible digital experiences with **React**, **Next.js**, and **React Native**, and on **UX/UI design** and design systems.
+
+You can find more on my [portfolio](https://www.joseluisdev.es/) and reach me via [LinkedIn](https://es.linkedin.com/in/joseluiscaballerow) or [Telegram](https://t.me/josecaballerodev).
 
 ---
 
