@@ -1,6 +1,6 @@
 Hi there 👋 I'm **José Luis Caballero**, Full-Stack Developer and Web Designer. I focus on building fast, accessible digital experiences with **React**, **Next.js**, and **React Native**, and on **UX/UI design** and design systems.
 
-You can find more on my [portfolio](https://www.joseluisdev.es/) and reach me via [LinkedIn](https://es.linkedin.com/in/joseluiscaballerow) or [Telegram](https://t.me/josecaballerodev).
+You can find more on my [portfolio](https://www.joseluisdev.es/) and reach me via [LinkedIn](https://es.linkedin.com/in/joseluiscaballerow) or [Telegram](https://t.me/joseluiscaballerow).
 
 ---
 
@@ -54,7 +54,7 @@ More details and case studies at [joseluisdev.es](https://www.joseluisdev.es/).
 <p align="left">
   <a href="https://www.joseluisdev.es/" title="Portfolio"><img src="https://skillicons.dev/icons?i=chrome" width="36" height="36" alt="Web" /></a>
   <a href="https://es.linkedin.com/in/joseluiscaballerow" title="LinkedIn"><img src="https://skillicons.dev/icons?i=linkedin" width="36" height="36" alt="LinkedIn" /></a>
-  <a href="https://t.me/josecaballerodev" title="Telegram"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/telegram.svg" width="36" height="36" alt="Telegram" /></a>
+  <a href="https://t.me/joseluiscaballerow" title="Telegram"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/telegram.svg" width="36" height="36" alt="Telegram" /></a>
 </p>
 
-*Have a project in mind? Reach out via [email](mailto:hola@joseluisdev.es) or [Telegram](https://t.me/josecaballerodev).*
+*Have a project in mind? Reach out via [email](mailto:hola@joseluisdev.es) or [Telegram](https://t.me/joseluiscaballerow).*
