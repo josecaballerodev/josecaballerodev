@@ -23,19 +23,19 @@ I care about performance, best practices, and taking products from concept to pr
   <img src="https://skillicons.dev/icons?i=nextjs" width="44" height="44" alt="Next.js" title="Next.js" />
   <img src="https://skillicons.dev/icons?i=ts" width="44" height="44" alt="TypeScript" title="TypeScript" />
   <img src="https://skillicons.dev/icons?i=tailwind" width="44" height="44" alt="Tailwind" title="Tailwind" />
-  <img src="https://skillicons.dev/icons?i=nodejs" width="44" height="44" alt="Node.js" title="Node.js" />
   <img src="https://skillicons.dev/icons?i=figma" width="44" height="44" alt="Figma" title="Figma" />
   <img src="https://skillicons.dev/icons?i=html" width="44" height="44" alt="HTML" title="HTML" />
   <img src="https://skillicons.dev/icons?i=css" width="44" height="44" alt="CSS" title="CSS" />
   <img src="https://skillicons.dev/icons?i=js" width="44" height="44" alt="JavaScript" title="JavaScript" />
   <img src="https://skillicons.dev/icons?i=postgres" width="44" height="44" alt="PostgreSQL" title="PostgreSQL" />
-  <img src="https://skillicons.dev/icons?i=mongodb" width="44" height="44" alt="MongoDB" title="MongoDB" />
   <img src="https://skillicons.dev/icons?i=git" width="44" height="44" alt="Git" title="Git" />
-  <img src="https://skillicons.dev/icons?i=docker" width="44" height="44" alt="Docker" title="Docker" />
-  <img src="https://skillicons.dev/icons?i=aws" width="44" height="44" alt="AWS" title="AWS" />
+  <img src="https://skillicons.dev/icons?i=expo" width="44" height="44" alt="Expo" title="Expo" />
+  <img src="https://skillicons.dev/icons?i=reactnative" width="44" height="44" alt="React Native" title="React Native" />
+  <img src="https://skillicons.dev/icons?i=supabase" width="44" height="44" alt="Supabase" title="Supabase" />
+  <img src="https://skillicons.dev/icons?i=framer" width="44" height="44" alt="Framer Motion" title="Framer Motion" />
 </p>
 
-*React Native, Expo, Framer Motion, Astro, Bootstrap, Supabase — and more.*
+*GSAP, Astro, Bootstrap — and more.*
 
 ---
 
@@ -52,7 +52,7 @@ More details and case studies at [joseluisdev.es](https://www.joseluisdev.es/).
 ### Connect
 
 <p align="left">
-  <a href="https://www.joseluisdev.es/" title="Portfolio"><img src="https://skillicons.dev/icons?i=chrome" width="36" height="36" alt="Web" /></a>
+  <a href="https://www.joseluisdev.es/" title="Portfolio"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlechrome.svg" width="36" height="36" alt="Web" /></a>
   <a href="https://es.linkedin.com/in/joseluiscaballerow" title="LinkedIn"><img src="https://skillicons.dev/icons?i=linkedin" width="36" height="36" alt="LinkedIn" /></a>
   <a href="https://t.me/joseluiscaballerow" title="Telegram"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/telegram.svg" width="36" height="36" alt="Telegram" /></a>
 </p>
