@@ -56,8 +56,8 @@ I care about performance, best practices, and taking products from concept to pr
 ### Featured projects
 
 - **[Helementa](https://www.joseluisdev.es/)** — IoT platform for real-time sensor monitoring and analytics (React, Next.js, Framer Motion, TypeScript).
-- **Helementa App** — Mobile app for IoT device management, notifications, and remote control (React Native, Expo, NativeWind).
-- **Santipatico Web** — Streamer website with PC optimization services and booking system (Next.js, TypeScript, Tailwind, Shadcn).
+- **[Helementa App](https://www.joseluisdev.es/)** — Mobile app for IoT device management, notifications, and remote control (React Native, Expo, NativeWind).
+- **[Santipatico Web](https://www.joseluisdev.es/)** — Streamer website with PC optimization services and booking system (Next.js, TypeScript, Tailwind, Shadcn).
 
 More details and case studies at [joseluisdev.es](https://www.joseluisdev.es/).
 
