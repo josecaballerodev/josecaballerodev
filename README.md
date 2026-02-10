@@ -2,8 +2,8 @@
   <tr>
     <td width="50%">
       <h1>José Luis Caballero</h1>
-      <p><b>Desarrollador Full-Stack & Diseñador Web</b></p>
-      <p>Innovación constante para experiencias digitales rápidas, hermosas y funcionales.</p>
+      <p><b>Full-Stack Developer & Web Designer</b></p>
+      <p>Constant innovation for fast, beautiful, and functional digital experiences.</p>
       <p>
         <a href="https://www.joseluisdev.es/"><img src="https://img.shields.io/badge/Web-Portfolio-0d1117?style=flat-square&logo=googlechrome" alt="Web"></a>
         <a href="https://es.linkedin.com/in/joseluiscaballerow"><img src="https://img.shields.io/badge/LinkedIn-José_Luis-0A66C2?style=flat-square&logo=linkedin" alt="LinkedIn"></a>
@@ -18,20 +18,19 @@
 
 ---
 
-### Sobre mí
+### About me
 
-Soy desarrollador y diseñador con foco en **front-end**, **móvil** y **UX/UI**. Actualmente trabajo como **Desarrollador Mobile & Front-End** en WD Tech Sensors And Systems. Antes he pasado por freelance (landing pages, paneles de administración para turismo y automoción), AbyssRP (plataforma de roleplay con React, Lua y Helix) y ALTEN España (aplicaciones web con React, JavaScript y SharePoint).
+**Front-end** and **mobile** developer with a strong focus on **UX/UI design**. I build fast, accessible, and well-crafted interfaces — from user research and design systems to implementation with React, Next.js, and React Native.
 
-Me gusta llevar proyectos de principio a fin: desde la investigación UX y el diseño de interfaces hasta el desarrollo con React, Next.js o React Native, priorizando rendimiento y buena experiencia de usuario.
+I care about performance, best practices, and taking products from concept to production with maintainable code and a solid user experience.
 
-- 🔭 **Ahora:** Desarrollador Mobile & Front-End en **WD Tech**
-- 🎨 Diseño UX/UI, sistemas de diseño e investigación de usuarios
-- 🌐 **Stack principal:** React, Next.js, TypeScript, Tailwind, Node.js, React Native
-- 📍 España · Español (nativo) · English B2 · Français A2
+- **Front-end & mobile:** React, Next.js, TypeScript, React Native
+- **Design:** UX/UI, design systems, user research
+- **Languages:** Spanish (native) · English B2 · French A2
 
 ---
 
-### Stack y herramientas
+### Stack & tools
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=react" width="44" height="44" alt="React" title="React" />
@@ -50,33 +49,21 @@ Me gusta llevar proyectos de principio a fin: desde la investigación UX y el di
   <img src="https://skillicons.dev/icons?i=aws" width="44" height="44" alt="AWS" title="AWS" />
 </p>
 
-*React Native, Expo, Framer Motion, Astro, Bootstrap, Supabase — entre otros.*
+*React Native, Expo, Framer Motion, Astro, Bootstrap, Supabase — and more.*
 
 ---
 
-### Experiencia reciente
+### Featured projects
 
-| Rol | Empresa / Contexto | Período |
-|-----|--------------------|---------|
-| Desarrollador Mobile & Front-End | WD Tech Sensors And Systems | Abr 2025 — Actualidad |
-| Desarrollador Front-End y Diseñador UX/UI | Freelance | Ene 2025 — Abr 2025 |
-| AbyssRP — Desarrollo web y sistemas | AbyssRP Network | Mar 2023 — Ene 2025 |
-| Desarrollador Front-End | ALTEN España | Ene 2022 — Mar 2023 |
+- **[Helementa](https://www.joseluisdev.es/)** — IoT platform for real-time sensor monitoring and analytics (React, Next.js, Framer Motion, TypeScript).
+- **Helementa App** — Mobile app for IoT device management, notifications, and remote control (React Native, Expo, NativeWind).
+- **Santipatico Web** — Streamer website with PC optimization services and booking system (Next.js, TypeScript, Tailwind, Shadcn).
 
----
-
-### Proyectos destacados
-
-- **[Helementa](https://www.joseluisdev.es/)** — Plataforma IoT para monitorización y análisis de sensores en tiempo real (React, Next.js, Framer Motion, TypeScript).
-- **Helementa App** — App móvil para gestión de dispositivos IoT, notificaciones y control remoto (React Native, Expo, NativeWind).
-- **Santipatico Web** — Web para streamer con servicios de optimización de PCs y sistema de reservas (Next.js, TypeScript, Tailwind, Shadcn).
-- **AbyssRP** — Plataforma de roleplay con personalización de personajes y multijugador en tiempo real (Next.js, TypeScript, Tailwind, Socket.io).
-
-Más detalles y casos de uso en [joseluisdev.es](https://www.joseluisdev.es/).
+More details and case studies at [joseluisdev.es](https://www.joseluisdev.es/).
 
 ---
 
-### Conecta conmigo
+### Connect
 
 <p align="left">
   <a href="https://www.joseluisdev.es/" title="Portfolio"><img src="https://skillicons.dev/icons?i=chrome" width="36" height="36" alt="Web" /></a>
@@ -84,4 +71,4 @@ Más detalles y casos de uso en [joseluisdev.es](https://www.joseluisdev.es/).
   <a href="https://t.me/josecaballerodev" title="Telegram"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/telegram.svg" width="36" height="36" alt="Telegram" /></a>
 </p>
 
-*¿Tienes un proyecto en mente? Puedes contactarme por [email](mailto:hola@joseluisdev.es) o por [Telegram](https://t.me/josecaballerodev) para hablar de ello.*
+*Have a project in mind? Reach out via [email](mailto:hola@joseluisdev.es) or [Telegram](https://t.me/josecaballerodev).*
