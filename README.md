@@ -29,8 +29,8 @@ I care about performance, best practices, and taking products from concept to pr
   <img src="https://skillicons.dev/icons?i=js" width="44" height="44" alt="JavaScript" title="JavaScript" />
   <img src="https://skillicons.dev/icons?i=postgres" width="44" height="44" alt="PostgreSQL" title="PostgreSQL" />
   <img src="https://skillicons.dev/icons?i=git" width="44" height="44" alt="Git" title="Git" />
-  <img src="https://skillicons.dev/icons?i=expo" width="44" height="44" alt="Expo" title="Expo" />
-  <img src="https://skillicons.dev/icons?i=reactnative" width="44" height="44" alt="React Native" title="React Native" />
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/expo.svg" width="44" height="44" alt="Expo" title="Expo" />
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg" width="44" height="44" alt="React Native" title="React Native" />
   <img src="https://skillicons.dev/icons?i=supabase" width="44" height="44" alt="Supabase" title="Supabase" />
   <img src="https://skillicons.dev/icons?i=framer" width="44" height="44" alt="Framer Motion" title="Framer Motion" />
 </p>
