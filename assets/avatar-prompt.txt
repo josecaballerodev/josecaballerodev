@@ -1,0 +1,7 @@
+Use case: identity-preserve.
+Asset type: square GitHub profile avatar, designed to be legible at 48–96 pixels and cropped to a circle.
+Input image 1: identity reference, José Luis's existing pixel portrait. Preserve his recognizable facial proportions, thick wavy dark hair, brown eyes and eyebrows, full trimmed dark beard, silver nose hoop and small silver ear hoops. Keep his black crew-neck shirt.
+Primary request: create a refined, friendly pixel-art avatar of this same person, with a slightly warmer relaxed expression and subtle closed-mouth smile. Tight head-and-upper-shoulders composition. Face centered, all hair, ears and beard inside a generous circular safe area; do not crop top of hair.
+Style: carefully hand-placed chunky pixel clusters, attractive 64-bit-era portrait sprite, clearly stepped pixel edges and a restrained palette. Simplify tiny details into intentional pixel shapes so the eyes, hair silhouette and smile remain readable small. No smooth photorealism, no airbrushing, no noisy dithering.
+Backdrop: solid muted sage green #a9cc7f, with minimal subtle pixel texture; balanced warm skin and charcoal shirt. Maintain strong contrast against both dark and light GitHub interfaces.
+Constraints: single adult man, identity faithful to the reference. No text, lettering, logos, hat, glasses, extra objects, border or watermark. Square 1024 by 1024 composition, opaque background.

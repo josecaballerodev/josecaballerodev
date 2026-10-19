@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="54" viewBox="0 0 480 54" role="img" aria-labelledby="title">
+<title id="title">Read this profile as plain text.</title>
+<defs><path id="pixel-P" d="M60 -12V540H151V631H433V540H525V260H433V169H161V-12ZM161 270H423V530H161Z"/><path id="pixel-a" d="M151 -12V78H60V359H151V450H433V359H525V88H616V-12H515V78H433V-12ZM161 88H423V350H161Z"/><path id="pixel-e" d="M151 -12V78H60V359H151V450H433V359H525V260H423V350H161V270H343V169H161V88H423V180H525V79H433V-12Z"/><path id="pixel-hyphen" d="M23 200V301H305V200Z"/><path id="pixel-i" d="M60 -12V450H161V-12ZM60 530V631H161V530Z"/><path id="pixel-l" d="M60 -12V631H161V-12Z"/><path id="pixel-n" d="M60 -12V450H433V359H525V-12H423V350H161V-12Z"/><path id="pixel-o" d="M151 -12V78H60V359H151V450H433V359H525V78H433V-12ZM161 88H423V350H161Z"/><path id="pixel-r" d="M60 -12V359H151V450H433V359H525V260H423V350H161V-12Z"/><path id="pixel-s" d="M60 -12V88H423V169H151V260H60V359H151V450H525V350H161V270H433V179H525V78H433V-12Z"/><path id="pixel-space" d=""/><path id="pixel-t" d="M241 -12V78H151V350H60V450H151V631H251V450H525V350H251V88H515V179H616V78H525V-12Z"/><path id="pixel-v" d="M232 -12V78H141V260H50V450H151V270H241V88H323V270H413V450H515V260H423V78H333V-12Z"/><path id="pixel-x" d="M60 -12V88H151V179H241V260H151V350H60V450H161V359H251V270H333V359H423V450H525V350H433V260H343V179H433V88H525V-12H423V78H333V169H251V78H161V-12Z"/>
+<linearGradient id="shell" x2=".7" y2="1"><stop stop-color="#f1eee5"/><stop offset="1" stop-color="#d4d0c6"/></linearGradient>
+<pattern id="lcd-grid" width="3" height="3" patternUnits="userSpaceOnUse"><rect width=".5" height="3" fill="#293e20" opacity=".1"/><rect width="3" height=".5" fill="#293e20" opacity=".1"/></pattern>
+</defs><style>
+.insert { animation: insert 1.4s cubic-bezier(.2,.75,.25,1) both; }
+.display { animation: boot 1.8s ease-out both; }
+.status { animation: status 1s ease-in-out 3; }
+@keyframes insert { from { transform: translateY(-24px); } to { transform: translateY(0); } }
+@keyframes boot { 0%,30% { opacity: .12; } 100% { opacity: 1; } }
+@keyframes status { 50% { opacity: .4; } }
+@media (prefers-reduced-motion: reduce) {
+  .insert,.display,.status { animation: none !important; }
+}
+</style>
+<rect x="0" y="0" width="480" height="54" rx="0" fill="#11120f" /><g fill="#bec2b5" transform="translate(28 33) scale(0.018 -0.018)"><use href="#pixel-P" x="0"/><use href="#pixel-l" x="586"/><use href="#pixel-a" x="808"/><use href="#pixel-i" x="1485"/><use href="#pixel-n" x="1707"/><use href="#pixel-hyphen" x="2293"/><use href="#pixel-t" x="2626"/><use href="#pixel-e" x="3303"/><use href="#pixel-x" x="3889"/><use href="#pixel-t" x="4475"/><use href="#pixel-space" x="5152"/><use href="#pixel-v" x="5352"/><use href="#pixel-e" x="5928"/><use href="#pixel-r" x="6514"/><use href="#pixel-s" x="7100"/><use href="#pixel-i" x="7686"/><use href="#pixel-o" x="7908"/><use href="#pixel-n" x="8494"/></g>
+</svg>
