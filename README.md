@@ -15,21 +15,21 @@
 <a href="https://www.joseluisdev.es/en/project/paulitaadiaz">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/profile/paulitaadiaz-mobile.svg" />
-    <img src="./assets/profile/paulitaadiaz.svg" width="100%" align="top" alt="Paulitaadiaz. A streaming room you can explore in 3D. Next.js · Three.js · Redis. Open project." />
+    <img src="./assets/profile/paulitaadiaz.svg" width="100%" align="top" alt="Paulitaadiaz. A streaming room you can explore in 3D. Next.js, Three.js, Redis. Open project." />
   </picture>
 </a>
 
 <a href="https://www.joseluisdev.es/en/project/helementa-mobile">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/profile/helementa-app-mobile.svg" />
-    <img src="./assets/profile/helementa-app.svg" width="100%" align="top" alt="Helementa App. IoT monitoring, on iOS and Android. React Native · Expo · TypeScript. Open project." />
+    <img src="./assets/profile/helementa-app.svg" width="100%" align="top" alt="Helementa App. IoT monitoring, on iOS and Android. React Native, Expo, TypeScript. Open project." />
   </picture>
 </a>
 
 <a href="https://www.joseluisdev.es/en/project/wdtech">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/profile/wdtech-mobile.svg" />
-    <img src="./assets/profile/wdtech.svg" width="100%" align="top" alt="Wdtech. A website for the connected world. Next.js · Three.js · GSAP. Open project." />
+    <img src="./assets/profile/wdtech.svg" width="100%" align="top" alt="Wdtech. A website for the connected world. Next.js, Three.js, GSAP. Open project." />
   </picture>
 </a>
 

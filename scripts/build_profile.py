@@ -304,7 +304,7 @@ def write_readme():
     text += "\n\n".join(f"- [{p['title']}]({p['url']}) — {p['summary']} {p['stack']}." for p in PROJECTS)
     text += "\n\n**Tools I reach for:** " + ", ".join(label for _, label in TOOLS) + ".\n\n"
     text += "Away from the keyboard: boxing, padel and family.\n\n"
-    text += " · ".join(f"[{label}]({url})" for _, label, url in CONTACTS) + "\n"
+    text += " / ".join(f"[{label}]({url})" for _, label, url in CONTACTS) + "\n"
     (ROOT / "PROFILE.md").write_text(text)
 
 
