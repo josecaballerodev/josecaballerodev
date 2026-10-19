@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="142" viewBox="0 0 320 142" role="img" aria-labelledby="title">
+<title id="title">AbyssRP: Web &amp; game server. Open case study.</title>
+<defs><path id="pixel-A" d="M60 -12V450H151V540H241V631H343V540H433V450H525V-12H423V169H161V-12ZM161 270H423V440H333V530H251V440H161Z"/><path id="pixel-P" d="M60 -12V540H151V631H433V540H525V260H433V169H161V-12ZM161 270H423V530H161Z"/><path id="pixel-R" d="M60 -12V540H151V631H433V540H525V260H433V169H389V88H479V-12H379V78H287V169H161V-12ZM161 270H423V530H161Z"/><path id="pixel-W" d="M151 -12V78H60V631H161V88H241V270H333V540H433V270H525V88H606V631H706V78H616V-12H515V78H423V260H343V78H251V-12Z"/><path id="pixel-a" d="M151 -12V78H60V359H151V450H433V359H525V88H616V-12H515V78H433V-12ZM161 88H423V350H161Z"/><path id="pixel-ampersand" d="M151 -12V78H60V179H151V270H241V350H151V440H60V540H151V631H433V540H525V440H433V350H343V270H433V179H525V88H616V-12H515V78H433V-12ZM161 88H423V169H333V260H251V169H161ZM251 359H333V450H423V530H161V450H251Z"/><path id="pixel-b" d="M151 -12V78H60V631H161V450H433V359H525V78H433V-12ZM161 88H423V350H161Z"/><path id="pixel-e" d="M151 -12V78H60V359H151V450H433V359H525V260H423V350H161V270H343V169H161V88H423V180H525V79H433V-12Z"/><path id="pixel-g" d="M151 -193V-103H60V-3H161V-93H424V78H151V169H60V359H151V450H434V359H525V-103H434V-193ZM161 179H424V350H161Z"/><path id="pixel-m" d="M60 -12V450H343V359H423V450H616V359H706V-12H606V350H433V-12H333V350H161V-12Z"/><path id="pixel-r" d="M60 -12V359H151V450H433V359H525V260H423V350H161V-12Z"/><path id="pixel-s" d="M60 -12V88H423V169H151V260H60V359H151V450H525V350H161V270H433V179H525V78H433V-12Z"/><path id="pixel-space" d=""/><path id="pixel-v" d="M232 -12V78H141V260H50V450H151V270H241V88H323V270H413V450H515V260H423V78H333V-12Z"/><path id="pixel-y" d="M151 -193V-103H60V-3H161V-93H424V78H151V169H60V450H161V179H424V450H525V-103H434V-193Z"/>
+<linearGradient id="shell" x2=".7" y2="1"><stop stop-color="#f1eee5"/><stop offset="1" stop-color="#d4d0c6"/></linearGradient>
+<pattern id="lcd-grid" width="3" height="3" patternUnits="userSpaceOnUse"><rect width=".5" height="3" fill="#293e20" opacity=".1"/><rect width="3" height=".5" fill="#293e20" opacity=".1"/></pattern>
+</defs><style>
+.insert { animation: insert 1.4s cubic-bezier(.2,.75,.25,1) both; }
+.display { animation: boot 1.8s ease-out both; }
+.status { animation: status 1s ease-in-out 3; }
+.underline { transform-origin: left; animation: extend 1.2s ease-out both; }
+@keyframes insert { from { transform: translateY(-24px); } to { transform: translateY(0); } }
+@keyframes boot { 0%,30% { opacity: .12; } 100% { opacity: 1; } }
+@keyframes status { 50% { opacity: .4; } }
+@keyframes extend { from { transform: scaleX(.15); } to { transform: scaleX(1); } }
+@media (prefers-reduced-motion: reduce) {
+  .insert,.display,.status,.underline { animation: none !important; }
+}
+</style>
+<rect x="0" y="0" width="320" height="142" rx="0" fill="#11120f" /><rect x="14" y="10" width="292" height="122" rx="8" fill="#1b1d18" stroke="#34392e"/><rect x="28" y="31" width="5" height="80" rx="2" fill="#97afff" /><g fill="#eeeee4" transform="translate(49 61) scale(0.031 -0.031)"><use href="#pixel-A" x="0"/><use href="#pixel-b" x="586"/><use href="#pixel-y" x="1172"/><use href="#pixel-s" x="1758"/><use href="#pixel-s" x="2344"/><use href="#pixel-R" x="2930"/><use href="#pixel-P" x="3516"/></g><g fill="#bec2b5" transform="translate(49 94) scale(0.023 -0.023)"><use href="#pixel-W" x="0"/><use href="#pixel-e" x="767"/><use href="#pixel-b" x="1353"/><use href="#pixel-space" x="1939"/><use href="#pixel-ampersand" x="2139"/><use href="#pixel-space" x="2816"/><use href="#pixel-g" x="3016"/><use href="#pixel-a" x="3602"/><use href="#pixel-m" x="4279"/><use href="#pixel-e" x="5046"/><use href="#pixel-space" x="5632"/><use href="#pixel-s" x="5832"/><use href="#pixel-e" x="6418"/><use href="#pixel-r" x="7004"/><use href="#pixel-v" x="7590"/><use href="#pixel-e" x="8166"/><use href="#pixel-r" x="8752"/></g>
+</svg>

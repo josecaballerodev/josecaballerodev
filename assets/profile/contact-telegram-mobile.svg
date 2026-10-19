@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="136" viewBox="0 0 320 136" role="img" aria-labelledby="title">
+<title id="title">Telegram: Say hello</title>
+<defs><path id="pixel-S" d="M151 -12V78H60V179H161V88H423V260H151V350H60V540H151V631H433V540H525V440H423V530H161V359H433V270H525V78H433V-12Z"/><path id="pixel-T" d="M241 -12V530H161V440H60V540H151V631H433V540H525V440H423V530H343V-12Z"/><path id="pixel-a" d="M151 -12V78H60V359H151V450H433V359H525V88H616V-12H515V78H433V-12ZM161 88H423V350H161Z"/><path id="pixel-e" d="M151 -12V78H60V359H151V450H433V359H525V260H423V350H161V270H343V169H161V88H423V180H525V79H433V-12Z"/><path id="pixel-g" d="M151 -193V-103H60V-3H161V-93H424V78H151V169H60V359H151V450H434V359H525V-103H434V-193ZM161 179H424V350H161Z"/><path id="pixel-h" d="M60 -12V631H161V359H241V450H433V359H525V-12H423V350H251V260H161V-12Z"/><path id="pixel-l" d="M60 -12V631H161V-12Z"/><path id="pixel-m" d="M60 -12V450H343V359H423V450H616V359H706V-12H606V350H433V-12H333V350H161V-12Z"/><path id="pixel-o" d="M151 -12V78H60V359H151V450H433V359H525V78H433V-12ZM161 88H423V350H161Z"/><path id="pixel-r" d="M60 -12V359H151V450H433V359H525V260H423V350H161V-12Z"/><path id="pixel-space" d=""/><path id="pixel-y" d="M151 -193V-103H60V-3H161V-93H424V78H151V169H60V450H161V179H424V450H525V-103H434V-193Z"/>
+<linearGradient id="shell" x2=".7" y2="1"><stop stop-color="#f1eee5"/><stop offset="1" stop-color="#d4d0c6"/></linearGradient>
+<pattern id="lcd-grid" width="3" height="3" patternUnits="userSpaceOnUse"><rect width=".5" height="3" fill="#293e20" opacity=".1"/><rect width="3" height=".5" fill="#293e20" opacity=".1"/></pattern>
+</defs><style>
+.insert { animation: insert 1.4s cubic-bezier(.2,.75,.25,1) both; }
+.display { animation: boot 1.8s ease-out both; }
+.status { animation: status 1s ease-in-out 3; }
+.underline { transform-origin: left; animation: extend 1.2s ease-out both; }
+@keyframes insert { from { transform: translateY(-24px); } to { transform: translateY(0); } }
+@keyframes boot { 0%,30% { opacity: .12; } 100% { opacity: 1; } }
+@keyframes status { 50% { opacity: .4; } }
+@keyframes extend { from { transform: scaleX(.15); } to { transform: scaleX(1); } }
+@media (prefers-reduced-motion: reduce) {
+  .insert,.display,.status,.underline { animation: none !important; }
+}
+</style>
+<rect x="0" y="0" width="320" height="136" rx="0" fill="#11120f" /><rect x="14" y="8" width="292" height="120" rx="9" fill="#1b1d18" stroke="#34392e"/><g fill="#eeeee4" transform="translate(33 56) scale(0.032 -0.032)"><use href="#pixel-T" x="0"/><use href="#pixel-e" x="586"/><use href="#pixel-l" x="1172"/><use href="#pixel-e" x="1394"/><use href="#pixel-g" x="1980"/><use href="#pixel-r" x="2566"/><use href="#pixel-a" x="3152"/><use href="#pixel-m" x="3829"/></g><g fill="#bec2b5" transform="translate(33 94) scale(0.023 -0.023)"><use href="#pixel-S" x="0"/><use href="#pixel-a" x="586"/><use href="#pixel-y" x="1263"/><use href="#pixel-space" x="1849"/><use href="#pixel-h" x="2049"/><use href="#pixel-e" x="2635"/><use href="#pixel-l" x="3221"/><use href="#pixel-l" x="3443"/><use href="#pixel-o" x="3665"/></g>
+</svg>
