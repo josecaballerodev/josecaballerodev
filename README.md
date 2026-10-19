@@ -1,37 +1,43 @@
 <a href="https://www.joseluisdev.es/en">
-  <img align="right" src="./assets/jose-luis-pixel.png" width="96" height="96" alt="Pixel art portrait of José Luis Caballero" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/profile/header-mobile.svg" />
+    <img src="./assets/profile/header.svg" width="100%" alt="José Luis Caballero. Front-end and mobile developer, web designer. Cádiz, Spain. I like making things you remember." />
+  </picture>
 </a>
 
-# José Luis Caballero
+<p align="center">
+  <a href="https://www.joseluisdev.es/en">Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://www.joseluisdev.es/en/cv">CV</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/joseluiscaballerodev">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:joseluiscaballerodev@gmail.com">Email</a>
+</p>
 
-**Front-end & mobile developer · Web designer**<br>
-Cádiz, Spain
+I build web and mobile interfaces at **[Wdtech](https://www.wdtech.io/es)**. Outside work, I make interactive websites with 3D, motion and a playful side. These are a few of them.
 
-I build websites and apps with React, Next.js and React Native. At **[Wdtech](https://www.wdtech.io/es)**, I work on IoT interfaces and mobile applications. In my own projects, I explore 3D, motion and playful ways to interact with the web.
+<a href="https://www.joseluisdev.es/en">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/profile/portfolio-mobile.svg" />
+    <img src="./assets/profile/portfolio.svg" width="100%" alt="My portfolio: a playable console with project cartridges, pixel art and minigames. Built with Next.js, TypeScript and Three.js. Play the portfolio." />
+  </picture>
+</a>
 
-[Portfolio](https://www.joseluisdev.es/en) · [CV](https://www.joseluisdev.es/en/cv) · [LinkedIn](https://www.linkedin.com/in/joseluiscaballerodev) · [Email](mailto:joseluiscaballerodev@gmail.com)
+<a href="https://paulitadiaz.vercel.app">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/profile/paulitaadiaz-mobile.svg" />
+    <img src="./assets/profile/paulitaadiaz.svg" width="100%" alt="Paulitaadiaz: an interactive 3D room for a streamer, with her dog and a community cork board. Design and development with Next.js, Three.js and Redis. Step inside the room." />
+  </picture>
+</a>
 
-### Selected work
+<a href="https://www.joseluisdev.es/en/project/helementa">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/profile/helementa-mobile.svg" />
+    <img src="./assets/profile/helementa.svg" width="100%" alt="Helementa: IoT monitoring on web and mobile. My front-end and React Native work at Wdtech. Explore the case study." />
+  </picture>
+</a>
 
-**[Paulitaadiaz](https://paulitadiaz.vercel.app)**<br>
-An interactive 3D room for a Valorant streamer, with seasonal decorations, her dog Ecco and a live cork board for her community. Design and development.
+[More work & case studies](https://www.joseluisdev.es/en/cv)
 
-`Next.js` `TypeScript` `Three.js` `Redis`<br>
-[Explore the room](https://paulitadiaz.vercel.app) · [Read the case study](https://www.joseluisdev.es/en/project/paulitaadiaz)
-
-**[My portfolio](https://www.joseluisdev.es/en)**<br>
-A playable handheld console with project cartridges, pixel art and minigames. Switch to the CV view for my work and experience.
-
-`Next.js` `React` `TypeScript` `Three.js`<br>
-[Try the console](https://www.joseluisdev.es/en) · [Browse my work](https://www.joseluisdev.es/en/cv)
-
-**[Helementa & Helementa App](https://www.joseluisdev.es/en/project/helementa)**<br>
-IoT monitoring on the web and on mobile: device management, real-time data and alerts. My work at Wdtech covers the front-end and the mobile app.
-
-`Next.js` `TypeScript` `React Native` `Expo`<br>
-[Web case study](https://www.joseluisdev.es/en/project/helementa) · [Mobile case study](https://www.joseluisdev.es/en/project/helementa-mobile) · [App Store](https://apps.apple.com/es/app/helementa/id6746443993)
-
-### What I work with
+### My everyday tools
 
 <p>
   <img src="./assets/tech/typescript.svg" width="32" height="32" alt="TypeScript" title="TypeScript" />&nbsp;&nbsp;
@@ -48,13 +54,11 @@ IoT monitoring on the web and on mobile: device management, real-time data and a
   <img src="./assets/tech/figma.svg" width="32" height="32" alt="Figma" title="Figma" />
 </p>
 
-- **Web:** React, Next.js, TypeScript, Tailwind CSS.
-- **Mobile:** React Native, Expo, NativeWind.
-- **Design & interaction:** Figma, Three.js, GSAP, Motion.
+React & Next.js for the web. React Native & Expo for mobile. Figma, Three.js, GSAP and Motion for the details that make an interface feel right.
 
 ### Away from the screen
 
-Boxing, padel and time with my family. I got into programming because I enjoy creating and designing things that surprise people.
+Boxing, padel and time with my family. I started programming because I enjoy creating things and seeing people react to them. That is still my favourite part.
 
 ---
 
