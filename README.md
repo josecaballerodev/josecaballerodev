@@ -3,129 +3,68 @@
 <a href="https://www.joseluisdev.es/en">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/profile/header-mobile.svg" />
-    <img src="./assets/profile/header.svg" width="100%" align="top" alt="José Luis Caballero. Front-end and mobile developer, web designer in Cádiz. Open the interactive JL / POCKET portfolio." />
+    <img src="./assets/profile/header.svg" width="100%" align="top" alt="José Luis Caballero. Front-end and mobile developer in Cádiz. Building at Wdtech. Open my interactive portfolio." />
   </picture>
 </a>
 
 <picture>
     <source media="(max-width: 600px)" srcset="./assets/profile/work-mobile.svg" />
-    <img src="./assets/profile/work.svg" width="100%" align="top" alt="Choose a cartridge. Selected projects." />
+    <img src="./assets/profile/work.svg" width="100%" align="top" alt="A few things I&#x27;ve built. Select a cartridge to open the project." />
   </picture>
 
 <a href="https://www.joseluisdev.es/en/project/paulitaadiaz">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/profile/paulitaadiaz-mobile.svg" />
-    <img src="./assets/profile/paulitaadiaz.svg" width="100%" align="top" alt="Paulitaadiaz. Paula&#x27;s streaming room, in 3D. Her dog Ecco, seasonal decorations and a live community cork board. Design &amp; development. Next.js · Three.js · Redis. Open case study." />
-  </picture>
-</a>
-
-<a href="https://www.joseluisdev.es/en/project/helementa">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/profile/helementa-mobile.svg" />
-    <img src="./assets/profile/helementa.svg" width="100%" align="top" alt="Helementa. Devices, real-time data and alerts. Interfaces that make sensor data easier to understand and act on. Front-end at Wdtech. React · Next.js · TypeScript. Open case study." />
+    <img src="./assets/profile/paulitaadiaz.svg" width="100%" align="top" alt="Paulitaadiaz. A streaming room you can explore in 3D. Next.js · Three.js · Redis. Open project." />
   </picture>
 </a>
 
 <a href="https://www.joseluisdev.es/en/project/helementa-mobile">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/profile/helementa-app-mobile.svg" />
-    <img src="./assets/profile/helementa-app.svg" width="100%" align="top" alt="Helementa App. IoT monitoring for iOS and Android. Device maps, notifications and remote control, wherever you are. Mobile development at Wdtech. React Native · Expo · TypeScript. Open case study." />
+    <img src="./assets/profile/helementa-app.svg" width="100%" align="top" alt="Helementa App. IoT monitoring, on iOS and Android. React Native · Expo · TypeScript. Open project." />
   </picture>
 </a>
 
 <a href="https://www.joseluisdev.es/en/project/wdtech">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/profile/wdtech-mobile.svg" />
-    <img src="./assets/profile/wdtech.svg" width="100%" align="top" alt="Wdtech. A website for an IoT company. 3D, motion and real use cases to explain connected environments. Front-end development. Next.js · Three.js · GSAP. Open case study." />
-  </picture>
-</a>
-
-<picture>
-    <source media="(max-width: 600px)" srcset="./assets/profile/more-mobile.svg" />
-    <img src="./assets/profile/more.svg" width="100%" align="top" alt="More from the collection" />
-  </picture>
-
-<a href="https://www.joseluisdev.es/en/project/nexum">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/profile/more-04-mobile.svg" />
-    <img src="./assets/profile/more-04.svg" width="49%" align="top" alt="Nexum: Safety technology. Open case study." />
-  </picture>
-</a>
-
-<a href="https://www.joseluisdev.es/en/project/santipatico">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/profile/more-06-mobile.svg" />
-    <img src="./assets/profile/more-06.svg" width="49%" align="top" alt="Santipatico: PC tuning &amp; bookings. Open case study." />
-  </picture>
-</a>
-
-<a href="https://www.joseluisdev.es/en/project/enasun">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/profile/more-07-mobile.svg" />
-    <img src="./assets/profile/more-07.svg" width="49%" align="top" alt="Enasun: Solar energy. Open case study." />
-  </picture>
-</a>
-
-<a href="https://www.joseluisdev.es/en/project/abyss-rp">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/profile/more-08-mobile.svg" />
-    <img src="./assets/profile/more-08.svg" width="49%" align="top" alt="AbyssRP: Web &amp; game server. Open case study." />
-  </picture>
-</a>
-
-<a href="https://www.joseluisdev.es/en/cv">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/profile/experience-mobile.svg" />
-    <img src="./assets/profile/experience.svg" width="100%" align="top" alt="Experience. Wdtech, Apr 2025 — now: Mobile &amp; front-end developer. IoT interfaces, apps and corporate websites. Freelance, Jan — Apr 2025: Front-end &amp; UX/UI designer. Landing pages and administration dashboards. AbyssRP Network, Mar 2023 — Jan 2025: Web &amp; server developer. A roleplay community, built with web tools and Lua. ALTEN España, Jan 2022 — Mar 2023: Front-end developer. Web applications with React and JavaScript. Open the full CV." />
+    <img src="./assets/profile/wdtech.svg" width="100%" align="top" alt="Wdtech. A website for the connected world. Next.js · Three.js · GSAP. Open project." />
   </picture>
 </a>
 
 <picture>
     <source media="(max-width: 600px)" srcset="./assets/profile/toolkit-mobile.svg" />
-    <img src="./assets/profile/toolkit.svg" width="100%" align="top" alt="TypeScript, React, React Native, Next.js, Expo, Three.js, GSAP, Motion, Tailwind CSS and Figma." />
+    <img src="./assets/profile/toolkit.svg" width="100%" align="top" alt="Tools I reach for: TypeScript, React, Next.js, Expo, Three.js, Figma." />
   </picture>
 
 <picture>
-    <source media="(max-width: 600px)" srcset="./assets/profile/about-mobile.svg" />
-    <img src="./assets/profile/about.svg" width="100%" align="top" alt="I started programming because I like creating and designing. I like seeing people surprised by something I&#x27;ve made. Outside work: boxing, padel and time with my family. Cádiz, Spain." />
-  </picture>
-
-<picture>
-    <source media="(max-width: 600px)" srcset="./assets/profile/contact-mobile.svg" />
-    <img src="./assets/profile/contact.svg" width="100%" align="top" alt="Have a project or a job opportunity in mind? Tell me what you&#x27;re working on." />
+    <source media="(max-width: 600px)" srcset="./assets/profile/personal-mobile.svg" />
+    <img src="./assets/profile/personal.svg" width="100%" align="top" alt="Away from the keyboard: boxing, padel and family." />
   </picture>
 
 <a href="mailto:joseluiscaballerodev@gmail.com">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/profile/contact-email-mobile.svg" />
-    <img src="./assets/profile/contact-email.svg" width="49%" align="top" alt="Email: joseluiscaballerodev@gmail.com" />
+    <img src="./assets/profile/contact-email.svg" width="32%" align="top" alt="Say hello" />
   </picture>
 </a>
-
 <a href="https://www.linkedin.com/in/joseluiscaballerodev">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/profile/contact-linkedin-mobile.svg" />
-    <img src="./assets/profile/contact-linkedin.svg" width="49%" align="top" alt="LinkedIn: Work &amp; experience" />
+    <img src="./assets/profile/contact-linkedin.svg" width="32%" align="top" alt="LinkedIn" />
   </picture>
 </a>
-
-<a href="https://t.me/joseluiscaballerow">
+<a href="https://www.joseluisdev.es/en">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/profile/contact-telegram-mobile.svg" />
-    <img src="./assets/profile/contact-telegram.svg" width="49%" align="top" alt="Telegram: Say hello" />
-  </picture>
-</a>
-
-<a href="https://www.joseluisdev.es/en/cv">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/profile/contact-cv-mobile.svg" />
-    <img src="./assets/profile/contact-cv.svg" width="49%" align="top" alt="Full CV: The complete picture" />
+    <source media="(max-width: 600px)" srcset="./assets/profile/contact-portfolio-mobile.svg" />
+    <img src="./assets/profile/contact-portfolio.svg" width="32%" align="top" alt="Portfolio" />
   </picture>
 </a>
 
 <a href="./PROFILE.md">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/profile/footer-mobile.svg" />
-    <img src="./assets/profile/footer.svg" width="100%" align="top" alt="JL / POCKET. Read the plain-text version of this profile." />
+    <img src="./assets/profile/footer.svg" width="100%" align="top" alt="Read this profile as plain text." />
   </picture>
 </a>
