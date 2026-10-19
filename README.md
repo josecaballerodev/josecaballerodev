@@ -1,58 +1,61 @@
-Hi there 👋 I'm **José Luis Caballero**, Full-Stack Developer and Web Designer. I focus on building fast, accessible digital experiences with **React**, **Next.js**, and **React Native**, and on **UX/UI design** and design systems.
+<a href="https://www.joseluisdev.es/en">
+  <img align="right" src="./assets/jose-luis-pixel.png" width="96" height="96" alt="Pixel art portrait of José Luis Caballero" />
+</a>
 
-You can find more on my [portfolio](https://www.joseluisdev.es/) and reach me via [LinkedIn](https://es.linkedin.com/in/joseluiscaballerow) or [Telegram](https://t.me/joseluiscaballerow).
+# José Luis Caballero
 
----
+**Front-end & mobile developer · Web designer**<br>
+Cádiz, Spain
 
-### About me
+I build websites and apps with React, Next.js and React Native. At **[Wdtech](https://www.wdtech.io/es)**, I work on IoT interfaces and mobile applications. In my own projects, I explore 3D, motion and playful ways to interact with the web.
 
-**Front-end** and **mobile** developer with a strong focus on **UX/UI design**. I build fast, accessible, and well-crafted interfaces — from user research and design systems to implementation with React, Next.js, and React Native.
+[Portfolio](https://www.joseluisdev.es/en) · [CV](https://www.joseluisdev.es/en/cv) · [LinkedIn](https://www.linkedin.com/in/joseluiscaballerodev) · [Email](mailto:joseluiscaballerodev@gmail.com)
 
-I care about performance, best practices, and taking products from concept to production with maintainable code and a solid user experience.
+### Selected work
 
-- **Front-end & mobile:** React, Next.js, TypeScript, React Native
-- **Design:** UX/UI, design systems, user research
-- **Languages:** Spanish (native) · English B2 · French A2
+**[Paulitaadiaz](https://paulitadiaz.vercel.app)**<br>
+An interactive 3D room for a Valorant streamer, with seasonal decorations, her dog Ecco and a live cork board for her community. Design and development.
 
----
+`Next.js` `TypeScript` `Three.js` `Redis`<br>
+[Explore the room](https://paulitadiaz.vercel.app) · [Read the case study](https://www.joseluisdev.es/en/project/paulitaadiaz)
 
-### Stack & tools
+**[My portfolio](https://www.joseluisdev.es/en)**<br>
+A playable handheld console with project cartridges, pixel art and minigames. Switch to the CV view for my work and experience.
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=react" width="44" height="44" alt="React" title="React" />
-  <img src="https://skillicons.dev/icons?i=nextjs" width="44" height="44" alt="Next.js" title="Next.js" />
-  <img src="https://skillicons.dev/icons?i=ts" width="44" height="44" alt="TypeScript" title="TypeScript" />
-  <img src="https://skillicons.dev/icons?i=tailwind" width="44" height="44" alt="Tailwind" title="Tailwind" />
-  <img src="https://skillicons.dev/icons?i=figma" width="44" height="44" alt="Figma" title="Figma" />
-  <img src="https://skillicons.dev/icons?i=html" width="44" height="44" alt="HTML" title="HTML" />
-  <img src="https://skillicons.dev/icons?i=css" width="44" height="44" alt="CSS" title="CSS" />
-  <img src="https://skillicons.dev/icons?i=js" width="44" height="44" alt="JavaScript" title="JavaScript" />
-  <img src="https://skillicons.dev/icons?i=postgres" width="44" height="44" alt="PostgreSQL" title="PostgreSQL" />
-  <img src="https://skillicons.dev/icons?i=git" width="44" height="44" alt="Git" title="Git" />
-  <img src="https://skillicons.dev/icons?i=supabase" width="44" height="44" alt="Supabase" title="Supabase" />
-  <img src="https://skillicons.dev/icons?i=framer" width="44" height="44" alt="Framer Motion" title="Framer Motion" />
+`Next.js` `React` `TypeScript` `Three.js`<br>
+[Try the console](https://www.joseluisdev.es/en) · [Browse my work](https://www.joseluisdev.es/en/cv)
+
+**[Helementa & Helementa App](https://www.joseluisdev.es/en/project/helementa)**<br>
+IoT monitoring on the web and on mobile: device management, real-time data and alerts. My work at Wdtech covers the front-end and the mobile app.
+
+`Next.js` `TypeScript` `React Native` `Expo`<br>
+[Web case study](https://www.joseluisdev.es/en/project/helementa) · [Mobile case study](https://www.joseluisdev.es/en/project/helementa-mobile) · [App Store](https://apps.apple.com/es/app/helementa/id6746443993)
+
+### What I work with
+
+<p>
+  <img src="./assets/tech/typescript.svg" width="32" height="32" alt="TypeScript" title="TypeScript" />&nbsp;&nbsp;
+  <img src="./assets/tech/react.svg" width="32" height="32" alt="React and React Native" title="React and React Native" />&nbsp;&nbsp;
+  <img src="./assets/tech/nextjs.svg" width="32" height="32" alt="Next.js" title="Next.js" />&nbsp;&nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/tech/expo-dark.svg" />
+    <img src="./assets/tech/expo.svg" width="32" height="32" alt="Expo" title="Expo" />
+  </picture>&nbsp;&nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/tech/threejs-dark.svg" />
+    <img src="./assets/tech/threejs.svg" width="32" height="32" alt="Three.js" title="Three.js" />
+  </picture>&nbsp;&nbsp;
+  <img src="./assets/tech/figma.svg" width="32" height="32" alt="Figma" title="Figma" />
 </p>
 
-*Expo, React Native, GSAP, Astro, Bootstrap — and more.*
+- **Web:** React, Next.js, TypeScript, Tailwind CSS.
+- **Mobile:** React Native, Expo, NativeWind.
+- **Design & interaction:** Figma, Three.js, GSAP, Motion.
+
+### Away from the screen
+
+Boxing, padel and time with my family. I got into programming because I enjoy creating and designing things that surprise people.
 
 ---
 
-### Featured projects
-
-- **[Helementa](https://www.joseluisdev.es/)** — IoT platform for real-time sensor monitoring and analytics (React, Next.js, Framer Motion, TypeScript).
-- **[Helementa App](https://www.joseluisdev.es/)** — Mobile app for IoT device management, notifications, and remote control (React Native, Expo, NativeWind).
-- **[Santipatico Web](https://www.joseluisdev.es/)** — Streamer website with PC optimization services and booking system (Next.js, TypeScript, Tailwind, Shadcn).
-
-More details and case studies at [joseluisdev.es](https://www.joseluisdev.es/).
-
----
-
-### Connect
-
-<p align="left">
-  <a href="https://www.joseluisdev.es/" title="Portfolio"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlechrome.svg" width="36" height="36" alt="Web" /></a>
-  <a href="https://es.linkedin.com/in/joseluiscaballerow" title="LinkedIn"><img src="https://skillicons.dev/icons?i=linkedin" width="36" height="36" alt="LinkedIn" /></a>
-  <a href="https://t.me/joseluiscaballerow" title="Telegram"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/telegram.svg" width="36" height="36" alt="Telegram" /></a>
-</p>
-
-*Have a project in mind? Reach out via [email](mailto:hola@joseluisdev.es) or [Telegram](https://t.me/joseluiscaballerow).*
+**Have something in mind?** [Send me an email](mailto:joseluiscaballerodev@gmail.com) or [say hello on Telegram](https://t.me/joseluiscaballerow).
