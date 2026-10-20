@@ -16,3 +16,5 @@ The README is deliberately brief: an introduction, three selected projects, tool
 3. Run `python3 scripts/build_profile.py` and commit the generated SVGs, README and `PROFILE.md` together.
 
 FontTools is a build-time dependency only. SVGs embed local font outlines and images, so they do not depend on external fonts. Mobile compositions use `<picture>`. Animations finish within a few seconds and respect `prefers-reduced-motion`. Images include descriptions, with a matching [plain-text profile](../PROFILE.md) available for reading without the illustrations.
+
+The console character uses three original 24 × 32 pixel poses: rest and two waving frames. It blinks and waves after the screen starts, then returns to rest within 4.8 seconds. The animation is embedded CSS inside the desktop and mobile header SVGs; no JavaScript or external animation service is required. Reduced-motion mode shows the resting pose immediately. See [SVG image restrictions](https://developer.mozilla.org/en-US/docs/Web/SVG/Guides/SVG_as_an_image) and [reduced-motion preferences](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion).

@@ -39,6 +39,39 @@ STYLE = """
 }
 """
 
+PERSON_STYLE = """
+.sprite-motion { animation: sprite-bounce 4.8s steps(1,end) both; }
+.sprite-rest { animation: sprite-rest 4.8s steps(1,end) both; }
+.sprite-wave-a { opacity: 0; animation: sprite-wave-a 4.8s steps(1,end) both; }
+.sprite-wave-b { opacity: 0; animation: sprite-wave-b 4.8s steps(1,end) both; }
+.sprite-blink { opacity: 0; animation: sprite-blink 4.8s steps(1,end) both; }
+@keyframes sprite-bounce {
+  0%,55%,75%,100% { transform: translateY(0); }
+  45%,65% { transform: translateY(-1px); }
+}
+@keyframes sprite-rest {
+  0%,80%,100% { opacity: 1; }
+  40%,79.99% { opacity: 0; }
+}
+@keyframes sprite-wave-a {
+  0%,50%,70%,100% { opacity: 0; }
+  40%,60% { opacity: 1; }
+}
+@keyframes sprite-wave-b {
+  0%,60%,80%,100% { opacity: 0; }
+  50%,70% { opacity: 1; }
+}
+@keyframes sprite-blink {
+  0%,35%,38%,87%,90%,100% { opacity: 0; }
+  36%,88% { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sprite-motion,.sprite-rest,.sprite-wave-a,.sprite-wave-b,.sprite-blink {
+    animation: none !important;
+  }
+}
+"""
+
 
 def rect(x, y, w, h, fill, rx=0, extra=""):
     return f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}" fill="{fill}" {extra}/>'
@@ -109,7 +142,7 @@ class Drawing:
         return "".join(self.text(line, x, y + i * leading, size, color, max_width=width)
                        for i, line in enumerate(lines))
 
-    def save(self, name, width, height, title, content):
+    def save(self, name, width, height, title, content, extra_style=""):
         definitions = "".join(f'<path id="{font}-{glyph}" d="{glyph_path(font, glyph)}"/>'
                               for font, glyph in sorted(self.glyphs))
         document = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title">
@@ -117,14 +150,14 @@ class Drawing:
 <defs>{definitions}
 <linearGradient id="shell" x2=".7" y2="1"><stop stop-color="#f1eee5"/><stop offset="1" stop-color="#d4d0c6"/></linearGradient>
 <pattern id="lcd-grid" width="3" height="3" patternUnits="userSpaceOnUse"><rect width=".5" height="3" fill="#293e20" opacity=".1"/><rect width="3" height=".5" fill="#293e20" opacity=".1"/></pattern>
-</defs><style>{STYLE}</style>
+</defs><style>{STYLE}{extra_style}</style>
 {rect(0, 0, width, height, BG)}{content}
 </svg>
 '''
         (OUT / f"{name}.svg").write_text(document)
 
 
-# Reused from the original PixelPerson in the portfolio's console, unchanged.
+# The resting frame is the original PixelPerson from the portfolio's console.
 PERSON = [
     "........................", "........11111...........", "......111111111.........",
     ".....11121111111........", ".....112211111111.......", ".....111111111111.......",
@@ -140,14 +173,64 @@ PERSON = [
 ]
 
 
+def wave_frame(arm):
+    """Replace only the right arm, keeping the face and body consistent."""
+    pixels = [list(row) for row in PERSON]
+    for y in range(16, 23):
+        for x in range(15, 17):
+            pixels[y][x] = "."
+    for x, y, row in arm:
+        pixels[y][x:x+len(row)] = row
+    return ["".join(row) for row in pixels]
+
+
+WAVE_A = wave_frame([
+    (19, 9, "3.3"), (18, 10, "3333"), (19, 11, "333"),
+    (19, 12, "333"), (18, 13, "1221"), (18, 14, "1221"),
+    (16, 15, "12221"), (14, 16, "22221"), (14, 17, "221"),
+    (14, 18, "11"),
+])
+WAVE_B = wave_frame([
+    (21, 10, "3.3"), (20, 11, "3333"), (20, 12, "333"),
+    (19, 13, "1331"), (18, 14, "1221"), (16, 15, "12221"),
+    (14, 16, "22221"), (14, 17, "221"), (14, 18, "11"),
+])
+
+
+def pixel_paths(pixels, color):
+    """Coalesce horizontal pixel runs into three lightweight shade paths."""
+    paths = {"1": [], "2": [], "3": []}
+    for y, row in enumerate(pixels):
+        x = 0
+        while x < len(row):
+            shade = row[x]
+            end = x + 1
+            while end < len(row) and row[end] == shade:
+                end += 1
+            if shade in paths:
+                paths[shade].append(f"M{x} {y}h{end-x}v1h{x-end}z")
+            x = end
+    return "".join(
+        f'<path d="{"".join(paths[shade])}" fill="{color}" opacity="{opacity}"/>'
+        for shade, opacity in (("1", 1), ("2", .72), ("3", .35))
+    )
+
+
 def person(x, y, scale=1, color=LCD_INK):
-    paths = []
-    for row, line in enumerate(PERSON):
-        for col, shade in enumerate(line):
-            if shade != ".":
-                opacity = {"1": 1, "2": .72, "3": .35}[shade]
-                paths.append(rect(col, row, 1, 1, color, extra=f'opacity="{opacity}"'))
-    return group("".join(paths), x, y, scale, 'shape-rendering="crispEdges"')
+    frames = "".join(
+        f'<g class="{name}">{pixel_paths(pixels, color)}</g>'
+        for name, pixels in (
+            ("sprite-rest", PERSON), ("sprite-wave-a", WAVE_A), ("sprite-wave-b", WAVE_B)
+        )
+    )
+    # Cover just the upper eye pixels with the skin/LCD blend, leaving the lids.
+    skin = "#" + "".join(
+        f"{round(int(LCD[i:i+2], 16)*.65 + int(color[i:i+2], 16)*.35):02x}"
+        for i in (1, 3, 5)
+    )
+    frames += '<g class="sprite-blink">' + rect(7, 8, 1, 1, skin) + rect(11, 8, 1, 1, skin) + '</g>'
+    return group(f'<g class="sprite-motion">{frames}</g>', x, y, scale,
+                 'shape-rendering="crispEdges"')
 
 
 def action(d, label, x, y, width, fill=GREEN):
@@ -209,7 +292,8 @@ def hero(mobile=False):
         # No rule or text sits behind the cartridge's complete animation path.
         c += '<g transform="translate(603 30) rotate(-4 89 140) scale(.69)">' + console(d) + '</g>'
     d.save("header" + ("-mobile" if mobile else ""), w, h,
-           "José Luis Caballero. Front-end and mobile developer in Cádiz. Building at Wdtech. Play my interactive portfolio.", c)
+           "José Luis Caballero. Front-end and mobile developer in Cádiz. Building at Wdtech. Play my interactive portfolio.",
+           c, extra_style=PERSON_STYLE)
 
 
 def project_panel(project, mobile=False):
